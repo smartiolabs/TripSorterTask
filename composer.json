@@ -1,0 +1,22 @@
+{
+    "name": "smartiolabs/TripSorterTask",
+    "description": "Trip sorter task",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Essam",
+            "email": "ahmdesm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
